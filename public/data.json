@@ -1,0 +1,66 @@
+{
+  "personal": {
+    "name": "Bharath Teja Kumpatla",
+    "title": "Full-Stack Developer & UI/UX Designer",
+    "bio": "I craft immersive, dynamic web experiences that delight users and drive engagement.",
+    "avatar": "https://api.dicebear.com/7.x/notionists/svg?seed=Jane"
+  },
+  "contact": {
+    "email": "hello@example.com",
+    "github": "https://github.com",
+    "linkedin": "https://linkedin.com",
+    "twitter": "https://twitter.com"
+  },
+  "career": [
+    {
+      "role": "Senior Frontend Engineer",
+      "company": "TechFusion Inc.",
+      "duration": "2022 - Present",
+      "description": "Architecting modern web applications, focusing on performance, accessibility, and state-of-the-art UI animations."
+    },
+    {
+      "role": "Web Developer",
+      "company": "CreativePulse Agency",
+      "duration": "2019 - 2022",
+      "description": "Developed custom dynamic portfolio sites, marketing pages, and complex client dashboards using Vanilla JS and CSS Grid."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Aura E-Commerce platform",
+      "description": "A dark-themed e-commerce experience showcasing premium micro-animations.",
+      "technologies": [
+        "HTML",
+        "Vanilla CSS",
+        "JS"
+      ],
+      "link": "#"
+    },
+    {
+      "title": "Quantum Dashboard",
+      "description": "A high-performance analytics dashboard packed with real-time data visualizations.",
+      "technologies": [
+        "JS",
+        "CSS Grid",
+        "Chart.js"
+      ],
+      "link": "#"
+    }
+  ],
+  "stories": [
+    {
+      "id": "future-web",
+      "title": "The Future of Rich Web Experiences",
+      "date": "2024-03-10",
+      "excerpt": "Exploring the paradigm shift towards micro-animations and rich vibrant interfaces in modern web design.",
+      "content": "The line between native apps and web applications is blurring. Users today expect immersive, responsive, and dynamic interfaces that respond instantly to interaction. By leveraging Vanilla CSS, modern JavaScript, and hardware acceleration, we can build 'wow' experiences without bloated frameworks."
+    },
+    {
+      "id": "vanilla-css",
+      "title": "Why Vanilla CSS is Making a Massive Comeback",
+      "date": "2024-02-25",
+      "excerpt": "With CSS variables, native nesting, and wide browser support for Grid, Vanilla CSS is stronger than ever.",
+      "content": "For years we relied on Sass, LESS, and utility-first frameworks. However, native CSS has caught up. We now have nested rules, powerful color functions (like `color-mix`), and custom properties right out of the box. This provides maximum flexibility and control for high-fidelity designs."
+    }
+  ]
+}
