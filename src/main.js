@@ -6,10 +6,10 @@ let appData = null;
 const navigate = (hash) => {
   const sections = ['home', 'career', 'stories', 'contact'];
   const target = hash.replace('#', '') || 'home';
-  
+
   if (!sections.includes(target) && !target.startsWith('story-')) {
-     window.location.hash = 'home';
-     return;
+    window.location.hash = 'home';
+    return;
   }
 
   // Update Nav Links
@@ -88,7 +88,7 @@ const renderStoriesList = () => `
 const renderStoryDetail = (id) => {
   const story = appData.stories.find(s => s.id === id);
   if (!story) return renderStoriesList();
-  
+
   return `
     <div class="section-view active" id="view-story-detail">
       <a href="#stories" style="color: #00ffcc; text-decoration: none; margin-bottom: 30px; display: inline-block; font-weight: 600;">← Back to Stories</a>
@@ -132,12 +132,12 @@ const renderApp = (route) => {
 // Initialization
 const init = async () => {
   try {
-    const res = await fetch('/data.json');
+    const res = await fetch(`${import.meta.env.BASE_URL}data.json`);
     appData = await res.json();
-    
+
     // Listen to hash changes
     window.addEventListener('hashchange', () => navigate(window.location.hash));
-    
+
     // Initial Route
     navigate(window.location.hash || '#home');
   } catch (error) {
